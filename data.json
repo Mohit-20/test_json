@@ -1,0 +1,51 @@
+{
+  "lookup": "personalLoanSession",
+  "commands": [
+    {
+      "insert": {
+        "object": {
+          "com.onboarding_team.pl_offer.PLOfferRequest": {
+            "customerNumber": "777121313",
+            "eligibilityDecision": "APPROVED",
+            "approvedAmount": 60000.0,
+            "lentraEmi": 0.0,
+            "roi": 0.1349,
+            "offerRecommendations": [],
+            "maxEligibleEmi": 0.0,
+            "processingFees": 2.0,
+            "lentraResponseDate": 1739515436481,
+            "cibilScore": 792,
+            "estimatedIncome": 0.0,
+            "nbrDaysExpiry": 0,
+            "offerExpiryDate": 1740355200000,
+            "offerGenerationDate": 1739145600000,
+            "minimumLoanAmount": 60000.0,
+            "maxLoanAmount": 70000.0,
+            "selectedLoanAmount": 0.0,
+            "bankCode": "PCHFL",
+            "minTenure": 3,
+            "maxTenure": 60,
+            "preferredTenure": 48,
+            "eventSubtype": "InitialOffer",
+            "isIntentDone": true,
+            "intentRequest": {
+              "declaredIncome": 10000,
+              "employmentDetail": "",
+              "loanAmount": 10000,
+              "loanPurpose": "",
+              "pinCode": "440027"
+            },
+            "hardOfferDone": true,
+            "invokeHardOffer": false,
+            "leadGeneration": true,
+            "kycDone": false
+          }
+        },
+        "out-identifier": "com.onboarding_team.pl_offer;",
+        "return-object": true,
+        "entry-point": "DEFAULT",
+        "disconnected": false
+      }
+    }
+  ]
+}

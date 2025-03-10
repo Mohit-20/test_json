@@ -1,10 +1,4 @@
 {
-  "lookup": "personalLoanSession",
-  "commands": [
-    {
-      "insert": {
-        "object": {
-          "com.onboarding_team.pl_offer.PLOfferRequest": {
             "customerNumber": "777121313",
             "eligibilityDecision": "APPROVED",
             "approvedAmount": 60000.0,
@@ -40,12 +34,3 @@
             "leadGeneration": true,
             "kycDone": false
           }
-        },
-        "out-identifier": "com.onboarding_team.pl_offer;",
-        "return-object": true,
-        "entry-point": "DEFAULT",
-        "disconnected": false
-      }
-    }
-  ]
-}
